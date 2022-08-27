@@ -1,0 +1,522 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    /*   width: 1320px; */
+      margin: 0 auto;
+}
+      
+    .container{
+      max-width: 1320px;
+      margin: 0 auto;
+    }
+    .bg-red {
+      background-color: #AA0601;  
+    }
+    .header{
+      display: flex;
+      justify-content: space-between;
+    /*   background-color: #AA0601; */
+      margin: 0 auto;
+      padding-bottom : 16px;
+      padding-top : 16px;
+    }     
+    
+    .logo{
+      width: 80px;
+      height: 32px;
+      padding-left : 16px;
+     }
+        
+    .nav-list {
+      display: flex;
+      list-style-type: none;
+      padding: 24px;
+      marging : 24px;
+     }
+        
+    .nav-link a {
+      color : #fff;
+      font-size: 16px;
+     }
+        
+    .nav-link a :hover {
+      text-decoration : underline;
+      color : #fff;
+      font-size: 16px;
+     }
+    
+    .logo{
+      width: 80px;
+      height: 48px;
+      padding : 24px;
+     }
+    
+    .nav-list{
+      display: flex;
+      display-wrap : nowrap;
+      padding: 24px;
+      marging : 24px;
+     }
+        
+    .nav-link{
+      list-style-type: none;
+      color: #fff;
+      padding: 5px 16px;
+     }
+        
+    .section1 {
+        background: transparent url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true')0% 0% no-repeat padding-box;
+        background-size : cover;
+        background-position :center center;
+        margin: 0 auto;
+        min-height : 800px;
+        text-align-last: left;
+      }
+    
+    .bg-img {
+      min-height : 100%;
+      width: 100%;
+      margin: 0 auto;  
+     }
+    
+    .section1 h2  {
+      font-size: 40px;
+      color : #650300;
+      padding-right : 0px;
+      text-align-last: right;
+      padding-top: 350px;
+      
+     }
+    
+    .title  {
+      font-size: 60px;
+      color : #650300;
+      font-weight: 700px;
+      position :absolute;
+      top: 520px;
+      right :90px;
+      text-align-last : right;
+     }
+        
+    .btn {
+      background: #AA0601; 
+      font-size: 24px;
+      font-weight: 400;
+      color: #fff;
+      border-radius : 8px;
+      display: flex;
+      padding : 8px 16px 8px 16px;
+      position :absolute;
+      top : 650px;
+      right : 110px;
+     }
+        
+    a {
+        text-decoration : none;
+        color : #fff;
+        font-size: 20px;
+        margin-right: 24px;
+    }
+    
+    h2 {
+        font-size: 48px;
+        font-weight: 700;
+        color : #650300;
+        text-align: center;
+        justify-content: center;
+        padding-top: 48px;
+     }
+    
+    p {
+        font-size: 16px;
+        line-height : 1.5em;
+        padding-top : 16px;
+        text-align-last: left;
+      }
+      
+    a:hover {
+      text-decoration : underline;
+      color : #F5F7FA;
+    }
+      
+    .section2 {
+        background: #FBF2F2;
+        display: flex;
+        flex-direction :column;
+        margin: 0 auto;
+        padding-top : 48px;
+        
+      }
+      
+    .profession {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -12px;
+      margin-right: -12px;
+     }
+        
+    .card {
+      width: 20%;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 2%;
+      padding-left : 5px;
+      padding-right: 5px;
+      padding-top : 16px;
+      padding-bottom : 24px;
+      justify-content : center;
+     } 
+        
+    .card-img {
+      max-width: 80px;
+      height: 80px;
+      margin: 0 auto;
+      margin-top: 24px;
+     }
+        
+    .card h2{
+      font-size: 24px;
+      font-weight: 600;
+      margin-top :24px;
+      margiin-bottom: 24px;
+     }
+    
+    .slogn{
+        margin-bottom: 24px;
+      }
+       
+    .section3 { 
+        background: #fff;
+        display: flex;
+        flex-direction :column;
+        margin: 0 auto;
+        padding-top : 48px;
+        padding-bottom : 96px;
+      }
+    
+    .series {
+      display: flex;
+      flex-wrap: no wrap;
+      justify-direction : row;
+      justify-content : center;
+    }
+    
+    .series-card {
+      width: 33.33%;
+      margin: 2%;
+      padding-left : 5px;
+      padding-right: 5px;
+      padding-bottom : 24px;
+      list-style-type : none;
+     }
+        
+    .series-img {
+      max-width :100%;
+      max-height : auto;
+      margin: 0 auto;
+      margin-top: 8px;
+     }
+        
+    .series-name h2{
+      font-size: 48px;
+      font-weight: 600;
+      text-align: center;
+     }
+      
+    .section4 {
+        background: transparent url('https://github.com/zera888/2022-web-layout-training/blob/main/week3-4/index-bg-sm.png?raw=true')0% 0% no-repeat padding-box;
+        background-size : cover;
+        background-position :center center;
+        margin: 0 auto;
+        positon : center;
+        min-height : auto;
+        padding-bottom: 72px;
+      }
+      
+    .designer-slogn {
+      font-size: 48px;
+      font-weight: 700;
+      color : #F5F7FA;
+      text-align: center;
+      padding-top: 48px;
+      }
+        
+    .designer {
+      display: flex;
+      flex-wrap: no wrap;
+      justify-direction : row;
+      justify-content : center;
+      list-style-type: none;
+      margin: 0 auto;
+     }
+        
+    .designer-img {
+      max-width : 100%;
+      max-height : auto;
+      margin: 0 auto;
+      margin-top: 16px;
+      margin-bottom: 0px;
+     }
+        
+    .designer-name h2{
+      font-size: 48px;
+      font-weight: 700;
+      text-align: center;
+      color : #aa0601;
+      display: block;
+      background: #fff;
+      padding: 16px;
+      margin-top: 0;
+      margin: 0 auto;
+     }
+     
+    .section5 {
+        background: #fff;
+        display: flex;
+        flex-direction :column;
+        margin: 0 auto;
+        padding-top : 48px;
+        padding-bottom : 72px;  
+      }
+    
+    .opinion {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 8px;
+      margin-right: 8px;
+     }
+        
+    .recommand-card {
+      width: 20%;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 2%;
+      padding-left : 5px;
+      padding-right: 5px;
+      padding-top : 16px;
+      padding-bottom : 24px;
+      justify-content : center;
+      box-shadow: 0px 2px 6px #D6D6D6;
+    }
+        
+    .customer-img {
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+      margin-top: 24px;
+    }
+        
+    .section5 h2{
+      font-size: 16px;
+      font-weight: 300;
+      text-align-last: left;
+      color : #fff;
+     }
+       
+    .section6 {
+      background: #fff;
+      display: flex;
+      flex-direction :column;
+      margin: 0 auto;
+      padding-top : 24px;
+      magin-bottom : 72px;
+    }
+        
+    .description {
+      width: 500px;
+      height: 50px;
+      display: block;
+      margin: 0 auto;
+    }
+        
+    form {
+      box-size : border-box;
+      line-height :3em;
+      width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      vertical-align: middle;
+      text-align: center;
+      min-width: 10em;
+      flex-flow : row wrap;
+     }
+        
+    .submit {
+      background: #AA0601; 
+      font-size: 20px;
+      font-weight: 400;
+      color: #fff;
+      border-radius : 8px;
+      position : float;
+      display: flex;
+      justify-content: center;
+      padding : 8px 16px 8px 16px;
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom : 72px;
+    }
+      
+    .footer{
+      width: 1320px;
+      display: flex;
+      flex-direction : column;
+      background: #AA0601;
+      color : #fff;  
+      margin: 0 auto;
+      padding-bottom : 48px;
+      padding-top : 48px;
+    }
+    
+    .top{
+      width: 1320px;
+      display: flex;
+      margin: 0 auto;
+      flex-direction : row;
+      justify-content: space-between;
+      justify-item: center;
+      margin-top: 48px;
+    }
+
+    .nav-list-1{
+      display: flex;
+      display-wrap : nowrap;
+      padding: 24px;
+      marging : 24px;
+      margin-top: 32px;
+     }
+    
+    .socialmedia {
+      display: flex;
+      display: block;
+      padding-right: 16px;
+      list-sytle-type : none;
+      justify-content: center;
+      flex-direction : row;
+    }
+    
+    .media-list {
+      display: flex;
+      list-style-type: none;
+      justify-content: center;
+      padding: 24px;
+      marging : 24px;
+     }
+    
+    .media-img {
+        display: flex;
+        flex-wrap : nowrap;
+        justify-content : center;
+        flex-direction : row;
+        align-items: center;
+        width: 48px;
+        height: 48px;
+        margin-right: 24px;
+        padding: 24px;
+        margin: 0 auto;
+    }
+    
+    .contact {
+      font-size: 32px;
+      text-align: left;
+      list-style-type: none;
+      border-bottom:  2px  #fff solid;
+      padding-bottom: 72px;
+    }
+    
+    .contact-mathod {
+      font-size: 32px;
+      color : #fff;
+      list-style-type : none;
+      justify-items: start;
+      justify-direction: column;
+      text-align: left;
+      padding-left: 160px;
+      padding-bottom: 72px;
+    }
+    
+    .bottom {
+      width: 1200px;
+      display: flex;
+      margin: 0 auto;
+      justify-content : space-between;
+      border-top : 2px solid #fff;
+      padding-top: 32px;
+    }
+    
+    h3{
+      color : #fff;
+    }
+    
+    .note-list {
+      display: flex;
+      color : #fff;
+      list-style-type: none;
+      padding-right: 24px;
+      marging-right : 24px;
+      margin-bottom: 48px;
+      vertical-align : middle;
+     }
+    
+    .contact-mathod li {
+      font-size: 32px;
+      text-align: left;
+      margin-left: 48px;
+    }
+        
+    .note-link li a {
+      color : #fff;
+      font-size: 32px;
+      margin-right: 48px;
+     }
+     
+    .note-link a:hover{
+      color : #F5F7FA;
+    }
